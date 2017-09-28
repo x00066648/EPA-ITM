@@ -1,0 +1,31 @@
+1  ls
+    2  mkdir week3
+    3  ls
+    4  git clone https://github.com/x00066648/EPA-ITM.git
+    5  ls
+    6  mkdir week1
+    7  mkdir week2
+    8  mv week1 week2 week3 EPA-ITM
+    9  cd EPA-ITM/
+   10  ls
+   11  cd week3
+   12  nano hello.sh
+   13  chmod +x
+   14  chmod +x hello.sh
+   15  ls -l
+   16  ./hello.sh
+   17  nano hello.sh
+   18  history
+
+8  git add hello.sh
+    9  git commit -m "First bash file" hello.sh 
+   10  git config --global user.name "Your Name"
+   11  git push
+   12  ./hello.sh
+   13  git add hello.sh
+   14  git commit -m "Added new line" hello.sh
+   15  git config --global user.name Gareth McCarthy
+   16  git config --global user.email x00066648@gmail.com
+   17  git push
+   18  cd
+   1
